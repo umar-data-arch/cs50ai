@@ -1,8 +1,41 @@
-# CS50 AI Course Overview
+# CS50 AI Course - Solutions Repository
 
-Welcome to the CS50 AI course! This course covers the fundamentals of artificial intelligence (AI) through engaging problem sets and projects. Participants will explore topics such as search algorithms, knowledge representation, neural networks, and more.
+Welcome to the CS50 AI course solutions! This repository contains implementations and solutions for various AI problems and algorithms covered in Harvard's CS50 AI course.
+
+## Table of Contents
+
+- [Search Problems](#search-problems)
+  - [Maze](#maze)
+
+---
+
+## Search Problems
+
+Search algorithms are fundamental to AI. They help us find solutions by exploring possible states and paths.
+
+### [Maze](./cs50ai/search/README.md)
+
+**Problem:** Find the shortest path from start (A) to goal (B) in a maze.
+
+**Algorithms Covered:**
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- A* Search Algorithm
+
+**Files:**
+- `cs50ai/search/maze/maze.py` - Complete BFS implementation
+- `cs50ai/search/maze/maze.txt` - Sample maze input
+- `cs50ai/search/maze/README.md` - Detailed documentation
+
+**Quick Start:**
+```bash
+python cs50ai/search/maze/maze.py cs50ai/search/maze/maze.txt
+```
+
+---
 
 ## Course Structure
+
 - **Week 1:** Introduction to AI
 - **Week 2:** Search Algorithms
 - **Week 3:** Knowledge Representation
@@ -13,30 +46,22 @@ Welcome to the CS50 AI course! This course covers the fundamentals of artificial
 - **Week 8:** Final Project
 
 ## Getting Started
-To get started, make sure to set up your development environment by following the guidelines provided in the course materials.
 
-# Maze Problem Overview
-
-The Maze problem is a classic problem in AI that involves finding a path from a starting position to a goal position in a maze using various search algorithms. The course provides a detailed introduction to solving this problem using:
-- Breadth-first Search
-- Depth-first Search
-- A* Search Algorithm
-
-## Problem Set Details
-- **Objective:** Navigate from the start to the goal position in the maze.
-- **Input:** A maze represented in a specific format (e.g., grid representation).
-- **Output:** The path taken to reach the goal, or a failure message if no path exists.
-
-## Implementation Steps
-1. **Understand the Maze Representation**: Learn how the maze is structured and how to interpret the input.
-2. **Implement Search Algorithms**: Create functions for different search strategies.
-3. **Test the Algorithms**: Ensure that the algorithms work correctly with various maze examples.
-4. **Optimization**: Explore ways to improve efficiency and performance.
+1. Clone this repository
+2. Navigate to the problem folder you want to explore
+3. Read the README.md in that folder for detailed instructions
+4. Run the solution with sample inputs
 
 ## Resources
+
 - [CS50 AI Official Course Page](https://cs50.harvard.edu/ai/)
 - [CS50 AI GitHub Repository](https://github.com/cs50)
-- [Additional Readings and Materials](https://cs50.harvard.edu/ai/2020/x/notes/)
+- [Course Notes and Materials](https://cs50.harvard.edu/ai/2020/x/notes/)
 
-## Conclusion
-This README provides a general overview of the CS50 AI course and details about the Maze problem. For any questions, please refer to the course materials or reach out to the course staff for assistance.
+## Contributing
+
+Feel free to add more solutions, optimizations, or alternative implementations. Make sure to document your code and add appropriate comments.
+
+## License
+
+These solutions are for educational purposes as part of the CS50 AI course.
